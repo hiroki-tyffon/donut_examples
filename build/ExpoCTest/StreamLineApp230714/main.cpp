@@ -74,6 +74,7 @@
 
 #include "SLWrapper.h"
 #include "RenderTargets.h"
+#include "StreamlineApp.h"
 #include "StreamlineSample.h"
 #include "UIRenderer.h"
 #include "UIData.h"
@@ -233,14 +234,18 @@ int main(int __argc, const char* const* __argv)
         uiData.EnableVsync = deviceParams.vsyncEnabled;
         uiData.Resolution = donut::math::int2{ (int)deviceParams.backBufferWidth, (int)deviceParams.backBufferHeight };
 
-        std::shared_ptr<StreamlineSample> demo = std::make_shared<StreamlineSample>(deviceManager, uiData, sceneName, scripting);
-        std::shared_ptr<UIRenderer> gui = std::make_shared<UIRenderer>(deviceManager, demo, uiData);
-
+#if 0
+        auto demo = std::make_shared<StreamlineSample>(deviceManager, uiData, sceneName, scripting);
+        auto gui = std::make_shared<UIRenderer>(deviceManager, demo, uiData);
+        
         gui->Init(demo->GetShaderFactory());
-
+        
         deviceManager->AddRenderPassToBack(demo.get());
         deviceManager->AddRenderPassToBack(gui.get());
-
+#else
+        auto demo = std::make_shared<StreamlineApp>(deviceManager, uiData, sceneName, scripting);
+        deviceManager->AddRenderPassToBack(demo.get());
+#endif
         deviceManager->RunMessageLoop();
     }
 

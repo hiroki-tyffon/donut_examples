@@ -236,6 +236,7 @@
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="StreamlineApp.cpp" />
     <ClCompile Include="StreamlineSample.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -278,6 +279,7 @@
     <ClInclude Include="DeviceManagerOverride\DeviceManagerOverride.h" />
     <ClInclude Include="RenderTargets.h" />
     <ClInclude Include="SLWrapper.h" />
+    <ClInclude Include="StreamlineApp.h" />
     <ClInclude Include="StreamlineSample.h" />
     <ClInclude Include="streamline\include\sl.h" />
     <ClInclude Include="streamline\include\sl_consts.h" />
