@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\CMakeFiles\ffdc19c34336596988b87ac473ba7f49\rt_triangle_shaders.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Tyffon\Repositories\expoc-test\donut_examples\examples\rt_triangle\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Tyffon\Repositories\expoc-test\donut_examples\examples\rt_triangle\rt_triangle.hlsl" />
+    <None Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\examples\rt_triangle\CMakeFiles\rt_triangle_shaders" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C16D86F9-EC86-32AC-B580-87BF2779C2F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
