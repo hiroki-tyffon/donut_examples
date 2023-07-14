@@ -98,6 +98,7 @@ public:
         desc.isTypeless = false;
         desc.isUAV = sampleCount == 1;
         desc.format = nvrhi::Format::RGBA16_FLOAT;
+        // desc.format = nvrhi::Format::RGBA8_UNORM;
         desc.initialState = nvrhi::ResourceStates::RenderTarget;
         desc.debugName = "HdrColor";
         HdrColor = device->createTexture(desc);
