@@ -1647,6 +1647,7 @@ int main(int __argc, const char* const* __argv)
 {
     nvrhi::GraphicsAPI api = nvrhi::GraphicsAPI::VULKAN;
 #endif //  _WIN32
+    api = nvrhi::GraphicsAPI::D3D11;
 
     DeviceCreationParameters deviceParams;
     

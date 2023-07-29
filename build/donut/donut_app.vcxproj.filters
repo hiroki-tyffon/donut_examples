@@ -1,78 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\app\ApplicationBase.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\app\ApplicationBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\app\Camera.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\app\Camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\app\DeviceManager.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\app\DeviceManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\app\MediaFileSystem.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\app\MediaFileSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\app\UserInterfaceUtils.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\app\UserInterfaceUtils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\app\imgui_console.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\app\imgui_console.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\app\imgui_nvrhi.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\app\imgui_nvrhi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\app\imgui_renderer.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\app\imgui_renderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\app\dx11\DeviceManager_DX11.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\app\dx11\DeviceManager_DX11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\app\dx12\DeviceManager_DX12.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\app\dx12\DeviceManager_DX12.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\app\vulkan\DeviceManager_VK.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\app\vulkan\DeviceManager_VK.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\app\ApplicationBase.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\app\ApplicationBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\app\Camera.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\app\Camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\app\DeviceManager.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\app\DeviceManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\app\MediaFileSystem.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\app\MediaFileSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\app\Timer.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\app\Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\app\UserInterfaceUtils.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\app\UserInterfaceUtils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\app\imgui_console.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\app\imgui_console.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\app\imgui_nvrhi.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\app\imgui_nvrhi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\app\imgui_renderer.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\app\imgui_renderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\CMakeLists.txt" />
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D23BC9D4-4977-3322-8A82-F84EF38689FC}</UniqueIdentifier>
+      <UniqueIdentifier>{260EE2DF-0966-3A67-AD82-1DEA3550A095}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{092DEA98-006C-36E2-958A-A8679CCC442B}</UniqueIdentifier>
+      <UniqueIdentifier>{622E5789-E5D4-3A92-9480-B2AE58A34F25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

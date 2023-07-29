@@ -1,8 +1,8 @@
-# Install script for directory: C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/jsoncpp/include
+# Install script for directory: C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/jsoncpp/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/donut_examples")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/donut_examples")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,16 +34,16 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/json" TYPE FILE FILES
-    "C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/jsoncpp/include/json/allocator.h"
-    "C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/jsoncpp/include/json/assertions.h"
-    "C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/jsoncpp/include/json/config.h"
-    "C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/jsoncpp/include/json/forwards.h"
-    "C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/jsoncpp/include/json/json.h"
-    "C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/jsoncpp/include/json/json_features.h"
-    "C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/jsoncpp/include/json/reader.h"
-    "C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/jsoncpp/include/json/value.h"
-    "C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/jsoncpp/include/json/version.h"
-    "C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/jsoncpp/include/json/writer.h"
+    "C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/jsoncpp/include/json/allocator.h"
+    "C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/jsoncpp/include/json/assertions.h"
+    "C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/jsoncpp/include/json/config.h"
+    "C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/jsoncpp/include/json/forwards.h"
+    "C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/jsoncpp/include/json/json.h"
+    "C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/jsoncpp/include/json/json_features.h"
+    "C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/jsoncpp/include/json/reader.h"
+    "C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/jsoncpp/include/json/value.h"
+    "C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/jsoncpp/include/json/version.h"
+    "C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/jsoncpp/include/json/writer.h"
     )
 endif()
 

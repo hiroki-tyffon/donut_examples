@@ -1,132 +1,132 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\BloomPass.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\BloomPass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\CascadedShadowMap.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\CascadedShadowMap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\DeferredLightingPass.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\DeferredLightingPass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\DepthPass.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\DepthPass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\DrawStrategy.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\DrawStrategy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\EnvironmentMapPass.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\EnvironmentMapPass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\ForwardShadingPass.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\ForwardShadingPass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\GBuffer.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\GBuffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\GBufferFillPass.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\GBufferFillPass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\GeometryPasses.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\GeometryPasses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\JointsRenderPass.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\JointsRenderPass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\LightProbeProcessingPass.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\LightProbeProcessingPass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\MipMapGenPass.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\MipMapGenPass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\PixelReadbackPass.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\PixelReadbackPass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\PlanarShadowMap.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\PlanarShadowMap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\SkyPass.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\SkyPass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\SsaoPass.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\SsaoPass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\TemporalAntiAliasingPass.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\TemporalAntiAliasingPass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\render\ToneMappingPasses.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\render\ToneMappingPasses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\BloomPass.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\BloomPass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\CascadedShadowMap.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\CascadedShadowMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\DeferredLightingPass.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\DeferredLightingPass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\DepthPass.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\DepthPass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\DrawStrategy.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\DrawStrategy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\EnvironmentMapPass.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\EnvironmentMapPass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\ForwardShadingPass.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\ForwardShadingPass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\GBuffer.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\GBuffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\GBufferFillPass.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\GBufferFillPass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\GeometryPasses.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\GeometryPasses.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\JointsRenderPass.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\JointsRenderPass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\LightProbeProcessingPass.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\LightProbeProcessingPass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\MipMapGenPass.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\MipMapGenPass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\PixelReadbackPass.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\PixelReadbackPass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\PlanarShadowMap.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\PlanarShadowMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\SkyPass.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\SkyPass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\SsaoPass.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\SsaoPass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\TemporalAntiAliasingPass.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\TemporalAntiAliasingPass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\render\ToneMappingPasses.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\render\ToneMappingPasses.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\CMakeLists.txt" />
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D23BC9D4-4977-3322-8A82-F84EF38689FC}</UniqueIdentifier>
+      <UniqueIdentifier>{260EE2DF-0966-3A67-AD82-1DEA3550A095}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{092DEA98-006C-36E2-958A-A8679CCC442B}</UniqueIdentifier>
+      <UniqueIdentifier>{622E5789-E5D4-3A92-9480-B2AE58A34F25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

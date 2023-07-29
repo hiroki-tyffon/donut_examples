@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BA9F7724-CDB0-3367-A2DB-683A22664522}</ProjectGuid>
+    <ProjectGuid>{B1160C32-2656-370F-9B93-12D954CB459A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\bin\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">meshlets.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">meshlets</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\bin\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">meshlets.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">meshlets</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\bin\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">meshlets.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">meshlets</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\bin\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">meshlets.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">meshlets</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -105,10 +105,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_ITERATOR_DEBUG_LEVEL=1;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -121,8 +121,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/meshlets/Debug/meshlets.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Tyffon/Repositories/expoc-test/donut_examples/bin/meshlets.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/meshlets/Debug/meshlets.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Tyffon/Repositories/ExpoC/donut_examples/bin/meshlets.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -131,7 +131,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -150,10 +150,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -166,8 +166,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/meshlets/Release/meshlets.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Tyffon/Repositories/expoc-test/donut_examples/bin/meshlets.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/meshlets/Release/meshlets.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Tyffon/Repositories/ExpoC/donut_examples/bin/meshlets.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -176,7 +176,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -195,10 +195,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -211,8 +211,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/meshlets/MinSizeRel/meshlets.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Tyffon/Repositories/expoc-test/donut_examples/bin/meshlets.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/meshlets/MinSizeRel/meshlets.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Tyffon/Repositories/ExpoC/donut_examples/bin/meshlets.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -221,7 +221,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -239,10 +239,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_DX11=1;USE_DX12=1;USE_VK=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;DONUT_WITH_TASKFLOW;DONUT_WITH_TINYEXR;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\stb;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\tinyexr;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\cgltf;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\ShaderMake\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\taskflow;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\glfw\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -255,8 +255,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/meshlets/RelWithDebInfo/meshlets.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Tyffon/Repositories/expoc-test/donut_examples/bin/meshlets.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/meshlets/RelWithDebInfo/meshlets.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Tyffon/Repositories/ExpoC/donut_examples/bin/meshlets.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -264,11 +264,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Tyffon\Repositories\expoc-test\donut_examples\examples\meshlets\CMakeLists.txt">
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\donut_examples\examples\meshlets\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/examples/meshlets/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/examples/meshlets/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/meshlets/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/meshlets/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -276,12 +276,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\donut\compileshaders.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\examples\meshlets\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\donut\compileshaders.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\examples\meshlets\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/examples/meshlets/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/examples/meshlets/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/meshlets/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/meshlets/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -289,12 +289,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\donut\compileshaders.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\examples\meshlets\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\donut\compileshaders.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\examples\meshlets\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/examples/meshlets/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/examples/meshlets/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/meshlets/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/meshlets/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -302,12 +302,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\donut\compileshaders.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\examples\meshlets\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\donut\compileshaders.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\examples\meshlets\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/examples/meshlets/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/examples/meshlets/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/meshlets/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/meshlets/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -315,77 +315,77 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\donut\compileshaders.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\examples\meshlets\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\donut\compileshaders.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\examples\meshlets\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\examples\meshlets\meshlets.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\examples\meshlets\meshlets.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\ZERO_CHECK.vcxproj">
-      <Project>{C3F1ABE0-A2B2-31F9-B4F2-D0A21DE9C44C}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\ZERO_CHECK.vcxproj">
+      <Project>{AAF3354B-0F63-3E6F-8C20-64C8EE04CD29}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\ShaderMake\ShaderMakeBlob.vcxproj">
-      <Project>{B0B20729-59AE-3DF3-95B2-80620DCA1ACD}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\ShaderMake\ShaderMakeBlob.vcxproj">
+      <Project>{294A5F80-25DF-3DC1-AE02-15FB9BF7D797}</Project>
       <Name>ShaderMakeBlob</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\donut_app.vcxproj">
-      <Project>{051844CA-750F-31CF-A6BB-39AC1B057116}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\donut_app.vcxproj">
+      <Project>{2344D9F4-90E5-3859-9C73-33A21DFBB047}</Project>
       <Name>donut_app</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\donut_core.vcxproj">
-      <Project>{C33E2C84-CA86-35E4-BC8B-2414675FD835}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\donut_core.vcxproj">
+      <Project>{48A4DCEE-C7E5-3783-9F12-F86E1D78D9B5}</Project>
       <Name>donut_core</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\donut_engine.vcxproj">
-      <Project>{0E74B346-624D-3D45-9604-D3FE53617AD7}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\donut_engine.vcxproj">
+      <Project>{7A3D50F7-C8EB-3B6F-BCD2-1A98C59A886E}</Project>
       <Name>donut_engine</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\glfw\src\glfw.vcxproj">
-      <Project>{CE2CD3B4-2233-3B34-AEBF-FB16291CF5CD}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\glfw\src\glfw.vcxproj">
+      <Project>{3E5D77D9-1856-3A93-9B9C-2AECB8793C0F}</Project>
       <Name>glfw</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\imgui.vcxproj">
-      <Project>{4A5D8289-AC12-39A9-BA40-ECE8EF6F462B}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\imgui.vcxproj">
+      <Project>{AB2740AA-E36D-3501-8A14-42B80D9F6612}</Project>
       <Name>imgui</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\src\lib_json\jsoncpp_static.vcxproj">
-      <Project>{D867D396-7F39-3C6E-94E3-0E5FD1F41163}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\src\lib_json\jsoncpp_static.vcxproj">
+      <Project>{8BCE6718-1A09-3D50-BEF4-B0BA95B30229}</Project>
       <Name>jsoncpp_static</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\lz4.vcxproj">
-      <Project>{9C2020F2-3996-3F29-A20B-BFAAEF653A73}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\lz4.vcxproj">
+      <Project>{0D55FBB7-67A2-3E91-98FF-E14AFBF79F2D}</Project>
       <Name>lz4</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\examples\meshlets\meshlets_shaders.vcxproj">
-      <Project>{ECDCD150-C417-3BAA-B4C4-750B73B93E3A}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\examples\meshlets\meshlets_shaders.vcxproj">
+      <Project>{5F0B4EDF-3B07-366F-8B78-18AAD9C022BD}</Project>
       <Name>meshlets_shaders</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz\miniz.vcxproj">
-      <Project>{C37E1096-7E91-3EB6-8F7F-00C0E8378553}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz\miniz.vcxproj">
+      <Project>{1813E5FA-2DA0-3547-8BD4-3DA6ACA76791}</Project>
       <Name>miniz</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\nvrhi\nvrhi.vcxproj">
-      <Project>{5148C6D8-2E09-39F0-BD6B-76D52D75DBD1}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\nvrhi\nvrhi.vcxproj">
+      <Project>{C50D460E-4035-37C5-B2F5-E6B1C200D017}</Project>
       <Name>nvrhi</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\nvrhi\nvrhi_d3d11.vcxproj">
-      <Project>{7A6FA386-4AB6-3205-BAFB-7B2C9F2A7F28}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\nvrhi\nvrhi_d3d11.vcxproj">
+      <Project>{B1701F1D-B2DD-3AF8-9DDC-45CD3CEC6F2E}</Project>
       <Name>nvrhi_d3d11</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\nvrhi\nvrhi_d3d12.vcxproj">
-      <Project>{903CF639-C82E-3A79-8489-DD1A9BA09273}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\nvrhi\nvrhi_d3d12.vcxproj">
+      <Project>{132E6719-9496-3070-95DA-FEB91664CE0B}</Project>
       <Name>nvrhi_d3d12</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\nvrhi\nvrhi_vk.vcxproj">
-      <Project>{98CCACB0-D2E4-3881-9A69-61F732500301}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\nvrhi\nvrhi_vk.vcxproj">
+      <Project>{121D4A80-1BEC-31D4-A6E5-20C6EAD9AB46}</Project>
       <Name>nvrhi_vk</Name>
     </ProjectReference>
   </ItemGroup>

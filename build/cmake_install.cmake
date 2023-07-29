@@ -1,8 +1,8 @@
-# Install script for directory: C:/Tyffon/Repositories/expoc-test/donut_examples
+# Install script for directory: C:/Tyffon/Repositories/ExpoC/donut_examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/donut_examples")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/donut_examples")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,20 +34,20 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/donut/cmake_install.cmake")
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/feature_demo/cmake_install.cmake")
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/basic_triangle/cmake_install.cmake")
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/vertex_buffer/cmake_install.cmake")
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/deferred_shading/cmake_install.cmake")
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/bindless_rendering/cmake_install.cmake")
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/variable_shading/cmake_install.cmake")
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/rt_triangle/cmake_install.cmake")
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/rt_shadows/cmake_install.cmake")
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/rt_reflections/cmake_install.cmake")
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/rt_bindless/cmake_install.cmake")
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/meshlets/cmake_install.cmake")
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/threaded_rendering/cmake_install.cmake")
-  include("C:/Tyffon/Repositories/expoc-test/donut_examples/build/examples/shader_specializations/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/donut/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/feature_demo/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/basic_triangle/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/vertex_buffer/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/deferred_shading/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/bindless_rendering/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/variable_shading/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/rt_triangle/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/rt_shadows/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/rt_reflections/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/rt_bindless/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/meshlets/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/threaded_rendering/cmake_install.cmake")
+  include("C:/Tyffon/Repositories/ExpoC/donut_examples/build/examples/shader_specializations/cmake_install.cmake")
 
 endif()
 
@@ -59,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Tyffon/Repositories/expoc-test/donut_examples/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Tyffon/Repositories/ExpoC/donut_examples/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

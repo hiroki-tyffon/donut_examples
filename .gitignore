@@ -3,3 +3,6 @@ bin/
 .idea
 nvapi/
 CMakeFiles/
+*.tlog
+*.obj
+build/**/*.dir

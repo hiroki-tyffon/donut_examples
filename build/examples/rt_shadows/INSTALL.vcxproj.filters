@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\CMakeFiles\482ecb67e0531a44f1459369030f277f\INSTALL_force.rule">
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\CMakeFiles\745128b291bf4af77d45d99e3f155e78\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C16D86F9-EC86-32AC-B580-87BF2779C2F9}</UniqueIdentifier>
+      <UniqueIdentifier>{11130E4E-6508-3AB8-825D-0AD47530D5E9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -112,10 +112,13 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 int main(int __argc, const char** __argv)
 #endif
 {
-    nvrhi::GraphicsAPI api = app::GetGraphicsAPIFromCommandLine(__argc, __argv);
+    // nvrhi::GraphicsAPI api = app::GetGraphicsAPIFromCommandLine(__argc, __argv);
+    nvrhi::GraphicsAPI api = nvrhi::GraphicsAPI::D3D11;
     app::DeviceManager* deviceManager = app::DeviceManager::Create(api);
 
     app::DeviceCreationParameters deviceParams;
+    deviceParams.backBufferWidth = 3840*2;
+    deviceParams.backBufferHeight = 2160*3;
 #ifdef _DEBUG
     deviceParams.enableDebugRuntime = true; 
     deviceParams.enableNvrhiValidationLayer = true;

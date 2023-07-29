@@ -1,60 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\json_reader.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\json_reader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\json_value.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\json_value.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\json_writer.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\json_writer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\include\json\config.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\include\json\config.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\include\json\forwards.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\include\json\forwards.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\include\json\json_features.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\include\json\json_features.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\include\json\value.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\include\json\value.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\include\json\reader.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\include\json\reader.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\include\json\version.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\include\json\version.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\include\json\writer.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\include\json\writer.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\include\json\assertions.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\include\json\assertions.h">
       <Filter>Public API</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\json_tool.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\json_tool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\json_valueiterator.inl">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\json_valueiterator.inl">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\CMakeLists.txt" />
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D23BC9D4-4977-3322-8A82-F84EF38689FC}</UniqueIdentifier>
+      <UniqueIdentifier>{260EE2DF-0966-3A67-AD82-1DEA3550A095}</UniqueIdentifier>
     </Filter>
     <Filter Include="Public API">
-      <UniqueIdentifier>{E6899353-2377-31C9-8355-4FBF6848F8C3}</UniqueIdentifier>
+      <UniqueIdentifier>{31B4ED53-220D-3802-946B-AC14C02F84EC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{092DEA98-006C-36E2-958A-A8679CCC442B}</UniqueIdentifier>
+      <UniqueIdentifier>{622E5789-E5D4-3A92-9480-B2AE58A34F25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

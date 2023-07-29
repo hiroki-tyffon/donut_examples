@@ -1,8 +1,8 @@
-# Install script for directory: C:/Tyffon/Repositories/expoc-test/donut_examples/examples/bindless_rendering
+# Install script for directory: C:/Tyffon/Repositories/ExpoC/donut_examples/examples/bindless_rendering
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/donut_examples")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/donut_examples")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

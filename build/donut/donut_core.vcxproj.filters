@@ -1,126 +1,126 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\chunk\chunkFile.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\chunk\chunkFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\chunk\chunkReader.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\chunk\chunkReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\chunk\chunkWriter.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\chunk\chunkWriter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\json.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\json.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\log.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\math\color.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\math\color.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\math\frustum.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\math\frustum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\math\matrix.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\math\matrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\math\vector.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\math\vector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\string_utils.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\string_utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\vfs\Compression.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\vfs\Compression.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\vfs\TarFile.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\vfs\TarFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\vfs\VFS.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\vfs\VFS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\vfs\WinResFS.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\vfs\WinResFS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\vfs\ZipFile.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\vfs\ZipFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\chunk\chunk.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\chunk\chunk.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\chunk\chunkFile.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\chunk\chunkFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\circular_buffer.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\circular_buffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\json.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\json.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\log.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\affine.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\affine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\basics.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\basics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\box.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\box.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\color.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\color.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\frustum.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\frustum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\math.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\math.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\matrix.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\matrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\quat.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\quat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\sphere.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\sphere.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\vector.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\vector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\string_utils.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\string_utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\vfs\Compression.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\vfs\Compression.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\vfs\TarFile.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\vfs\TarFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\vfs\VFS.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\vfs\VFS.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\vfs\WinResFS.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\vfs\WinResFS.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\vfs\ZipFile.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\vfs\ZipFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\CMakeLists.txt" />
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D23BC9D4-4977-3322-8A82-F84EF38689FC}</UniqueIdentifier>
+      <UniqueIdentifier>{260EE2DF-0966-3A67-AD82-1DEA3550A095}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{092DEA98-006C-36E2-958A-A8679CCC442B}</UniqueIdentifier>
+      <UniqueIdentifier>{622E5789-E5D4-3A92-9480-B2AE58A34F25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

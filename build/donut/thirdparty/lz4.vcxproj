@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9C2020F2-3996-3F29-A20B-BFAAEF653A73}</ProjectGuid>
+    <ProjectGuid>{0D55FBB7-67A2-3E91-98FF-E14AFBF79F2D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,19 +59,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lz4.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lz4</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lz4.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lz4</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lz4.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lz4</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lz4.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lz4</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
@@ -200,11 +200,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\CMakeLists.txt">
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/donut/thirdparty/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/donut/thirdparty/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -212,12 +212,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/donut/thirdparty/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/donut/thirdparty/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -225,12 +225,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/donut/thirdparty/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/donut/thirdparty/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -238,12 +238,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/donut/thirdparty/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/donut/thirdparty/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -251,27 +251,27 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\imgui.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\imgui.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib\lz4.c" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib\lz4.h" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib\lz4file.c" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib\lz4file.h" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib\lz4frame.c" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib\lz4frame.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib\lz4frame_static.h" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib\lz4hc.c" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib\lz4hc.h" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib\xxhash.c" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib\xxhash.h" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib\lz4.c" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib\lz4.h" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib\lz4file.c" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib\lz4file.h" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib\lz4frame.c" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib\lz4frame.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib\lz4frame_static.h" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib\lz4hc.c" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib\lz4hc.h" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib\xxhash.c" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib\xxhash.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\ZERO_CHECK.vcxproj">
-      <Project>{C3F1ABE0-A2B2-31F9-B4F2-D0A21DE9C44C}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\ZERO_CHECK.vcxproj">
+      <Project>{AAF3354B-0F63-3E6F-8C20-64C8EE04CD29}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

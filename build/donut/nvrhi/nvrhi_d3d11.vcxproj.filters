@@ -1,60 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\common\dxgi-format.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\common\dxgi-format.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\d3d11\d3d11-buffer.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\d3d11\d3d11-buffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\d3d11\d3d11-commandlist.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\d3d11\d3d11-commandlist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\d3d11\d3d11-compute.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\d3d11\d3d11-compute.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\d3d11\d3d11-constants.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\d3d11\d3d11-constants.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\d3d11\d3d11-device.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\d3d11\d3d11-device.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\d3d11\d3d11-graphics.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\d3d11\d3d11-graphics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\d3d11\d3d11-queries.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\d3d11\d3d11-queries.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\d3d11\d3d11-resource-bindings.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\d3d11\d3d11-resource-bindings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\d3d11\d3d11-shader.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\d3d11\d3d11-shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\d3d11\d3d11-texture.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\d3d11\d3d11-texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include\nvrhi\d3d11.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include\nvrhi\d3d11.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\common\dxgi-format.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\common\dxgi-format.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\d3d11\d3d11-backend.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\d3d11\d3d11-backend.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\CMakeLists.txt" />
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D23BC9D4-4977-3322-8A82-F84EF38689FC}</UniqueIdentifier>
+      <UniqueIdentifier>{260EE2DF-0966-3A67-AD82-1DEA3550A095}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{092DEA98-006C-36E2-958A-A8679CCC442B}</UniqueIdentifier>
+      <UniqueIdentifier>{622E5789-E5D4-3A92-9480-B2AE58A34F25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

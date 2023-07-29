@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C33E2C84-CA86-35E4-BC8B-2414675FD835}</ProjectGuid>
+    <ProjectGuid>{48A4DCEE-C7E5-3783-9F12-F86E1D78D9B5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">donut_core.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">donut_core</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">donut_core.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">donut_core</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">donut_core.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">donut_core</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">donut_core.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">donut_core</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -97,10 +97,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_ITERATOR_DEBUG_LEVEL=1;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -113,7 +113,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -132,10 +132,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -148,7 +148,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -167,10 +167,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -183,7 +183,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -201,10 +201,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;DONUT_WITH_LZ4;DONUT_WITH_MINIZ;MINIZ_STATIC_DEFINE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\jsoncpp\src\lib_json\..\..\include;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\include\json;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\lz4\lib;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\thirdparty\miniz;C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -216,11 +216,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\CMakeLists.txt">
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/donut/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/donut/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/donut/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/donut/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -228,12 +228,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-app.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-core.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-engine.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-render.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-app.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-core.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-engine.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-render.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/donut/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/donut/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/donut/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/donut/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -241,12 +241,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-app.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-core.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-engine.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-render.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-app.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-core.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-engine.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-render.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/donut/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/donut/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/donut/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/donut/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -254,12 +254,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-app.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-core.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-engine.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-render.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-app.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-core.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-engine.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-render.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/donut/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/donut/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/donut/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/donut/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -267,66 +267,66 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-app.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-core.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-engine.cmake;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut-render.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-app.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-core.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-engine.cmake;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut-render.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\chunk\chunk.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\chunk\chunkFile.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\circular_buffer.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\json.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\log.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\affine.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\basics.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\box.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\color.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\frustum.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\math.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\matrix.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\quat.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\sphere.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\math\vector.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\string_utils.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\vfs\Compression.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\vfs\TarFile.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\vfs\VFS.h" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\chunk\chunkFile.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\chunk\chunkReader.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\chunk\chunkWriter.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\json.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\log.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\math\color.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\math\frustum.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\math\matrix.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\math\vector.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\string_utils.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\vfs\Compression.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\vfs\TarFile.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\vfs\VFS.cpp" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\vfs\WinResFS.h" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\vfs\WinResFS.cpp" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\core\vfs\ZipFile.h" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\core\vfs\ZipFile.cpp" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\chunk\chunk.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\chunk\chunkFile.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\circular_buffer.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\json.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\log.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\affine.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\basics.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\box.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\color.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\frustum.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\math.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\matrix.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\quat.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\sphere.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\math\vector.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\string_utils.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\vfs\Compression.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\vfs\TarFile.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\vfs\VFS.h" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\chunk\chunkFile.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\chunk\chunkReader.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\chunk\chunkWriter.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\json.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\log.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\math\color.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\math\frustum.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\math\matrix.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\math\vector.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\string_utils.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\vfs\Compression.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\vfs\TarFile.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\vfs\VFS.cpp" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\vfs\WinResFS.h" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\vfs\WinResFS.cpp" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\core\vfs\ZipFile.h" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\core\vfs\ZipFile.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\ZERO_CHECK.vcxproj">
-      <Project>{C3F1ABE0-A2B2-31F9-B4F2-D0A21DE9C44C}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\ZERO_CHECK.vcxproj">
+      <Project>{AAF3354B-0F63-3E6F-8C20-64C8EE04CD29}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\jsoncpp\src\lib_json\jsoncpp_static.vcxproj">
-      <Project>{D867D396-7F39-3C6E-94E3-0E5FD1F41163}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\jsoncpp\src\lib_json\jsoncpp_static.vcxproj">
+      <Project>{8BCE6718-1A09-3D50-BEF4-B0BA95B30229}</Project>
       <Name>jsoncpp_static</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\lz4.vcxproj">
-      <Project>{9C2020F2-3996-3F29-A20B-BFAAEF653A73}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\lz4.vcxproj">
+      <Project>{0D55FBB7-67A2-3E91-98FF-E14AFBF79F2D}</Project>
       <Name>lz4</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\thirdparty\miniz\miniz.vcxproj">
-      <Project>{C37E1096-7E91-3EB6-8F7F-00C0E8378553}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\thirdparty\miniz\miniz.vcxproj">
+      <Project>{1813E5FA-2DA0-3547-8BD4-3DA6ACA76791}</Project>
       <Name>miniz</Name>
     </ProjectReference>
   </ItemGroup>

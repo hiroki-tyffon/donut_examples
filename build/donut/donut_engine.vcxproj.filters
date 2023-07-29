@@ -1,147 +1,147 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\AudioCache.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\AudioCache.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\AudioEngine.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\AudioEngine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\BindingCache.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\BindingCache.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\CommonRenderPasses.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\CommonRenderPasses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\ConsoleInterpreter.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\ConsoleInterpreter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\ConsoleObjects.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\ConsoleObjects.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\DDSFile.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\DDSFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\DescriptorTableManager.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\DescriptorTableManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\FramebufferFactory.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\FramebufferFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\GltfImporter.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\GltfImporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\IesProfile.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\IesProfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\KeyframeAnimation.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\KeyframeAnimation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\Material.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\Material.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\MaterialBindingCache.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\MaterialBindingCache.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\Scene.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\Scene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\SceneGraph.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\SceneGraph.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\SceneTypes.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\SceneTypes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\ShaderFactory.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\ShaderFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\TextureCache.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\TextureCache.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\View.cpp">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\View.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\stb_impl.c">
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\stb_impl.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\AudioCache.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\AudioCache.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\AudioEngine.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\AudioEngine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\BindingCache.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\BindingCache.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\CommonRenderPasses.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\CommonRenderPasses.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\ConsoleInterpreter.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\ConsoleInterpreter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\ConsoleObjects.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\ConsoleObjects.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\DDSFile.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\DDSFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\DescriptorTableManager.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\DescriptorTableManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\FramebufferFactory.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\FramebufferFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\GltfImporter.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\GltfImporter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\IesProfile.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\IesProfile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\KeyframeAnimation.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\KeyframeAnimation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\MaterialBindingCache.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\MaterialBindingCache.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\Scene.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\Scene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\SceneGraph.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\SceneGraph.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\SceneTypes.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\SceneTypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\ShaderFactory.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\ShaderFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\ShadowMap.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\ShadowMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\TextureCache.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\TextureCache.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\include\donut\engine\View.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\include\donut\engine\View.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\src\engine\dds.h">
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\src\engine\dds.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\CMakeLists.txt" />
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Natvis Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\donut.natvis" />
+    <Natvis Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\donut.natvis" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D23BC9D4-4977-3322-8A82-F84EF38689FC}</UniqueIdentifier>
+      <UniqueIdentifier>{260EE2DF-0966-3A67-AD82-1DEA3550A095}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{092DEA98-006C-36E2-958A-A8679CCC442B}</UniqueIdentifier>
+      <UniqueIdentifier>{622E5789-E5D4-3A92-9480-B2AE58A34F25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

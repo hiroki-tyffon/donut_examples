@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{98CCACB0-D2E4-3881-9A69-61F732500301}</ProjectGuid>
+    <ProjectGuid>{121D4A80-1BEC-31D4-A6E5-20C6EAD9AB46}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\nvrhi\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\nvrhi\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nvrhi_vk.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nvrhi_vk</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\nvrhi\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\nvrhi\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nvrhi_vk.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nvrhi_vk</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\nvrhi\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\nvrhi\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nvrhi_vk.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">nvrhi_vk</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\nvrhi\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\nvrhi\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nvrhi_vk.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">nvrhi_vk</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -97,10 +97,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_ITERATOR_DEBUG_LEVEL=1;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -113,7 +113,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -132,10 +132,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -148,7 +148,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -167,10 +167,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -183,7 +183,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -201,10 +201,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include;C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\thirdparty\Vulkan-Headers\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -216,11 +216,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\CMakeLists.txt">
+    <CustomBuild Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/donut/nvrhi/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/donut/nvrhi/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/donut/nvrhi/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/donut/nvrhi/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -229,11 +229,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\nvrhi\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\nvrhi\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/donut/nvrhi/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/donut/nvrhi/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/donut/nvrhi/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/donut/nvrhi/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,11 +242,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\nvrhi\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\nvrhi\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/donut/nvrhi/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/donut/nvrhi/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/donut/nvrhi/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/donut/nvrhi/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,11 +255,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\nvrhi\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\nvrhi\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Tyffon/Repositories/expoc-test/donut_examples/donut/nvrhi/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Tyffon/Repositories/ExpoC/donut_examples/donut/nvrhi/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/expoc-test/donut_examples -BC:/Tyffon/Repositories/expoc-test/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/expoc-test/donut_examples/build/donut/nvrhi/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Tyffon/Repositories/ExpoC/donut_examples -BC:/Tyffon/Repositories/ExpoC/donut_examples/build --check-stamp-file C:/Tyffon/Repositories/ExpoC/donut_examples/build/donut/nvrhi/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,35 +268,35 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeDependentOption.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\expoc-test\donut_examples\build\donut\nvrhi\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Tyffon\Repositories\ExpoC\donut_examples\build\donut\nvrhi\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\include\nvrhi\vulkan.h" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\common\versioning.h" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-allocator.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-buffer.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-commandlist.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-compute.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-constants.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-device.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-graphics.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-meshlets.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-queries.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-queue.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-raytracing.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-resource-bindings.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-shader.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-staging-texture.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-state-tracking.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-texture.cpp" />
-    <ClCompile Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-upload.cpp" />
-    <ClInclude Include="C:\Tyffon\Repositories\expoc-test\donut_examples\donut\nvrhi\src\vulkan\vulkan-backend.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\include\nvrhi\vulkan.h" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\common\versioning.h" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-allocator.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-buffer.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-commandlist.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-compute.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-constants.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-device.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-graphics.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-meshlets.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-queries.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-queue.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-raytracing.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-resource-bindings.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-shader.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-staging-texture.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-state-tracking.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-texture.cpp" />
+    <ClCompile Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-upload.cpp" />
+    <ClInclude Include="C:\Tyffon\Repositories\ExpoC\donut_examples\donut\nvrhi\src\vulkan\vulkan-backend.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Tyffon\Repositories\expoc-test\donut_examples\build\ZERO_CHECK.vcxproj">
-      <Project>{C3F1ABE0-A2B2-31F9-B4F2-D0A21DE9C44C}</Project>
+    <ProjectReference Include="C:\Tyffon\Repositories\ExpoC\donut_examples\build\ZERO_CHECK.vcxproj">
+      <Project>{AAF3354B-0F63-3E6F-8C20-64C8EE04CD29}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

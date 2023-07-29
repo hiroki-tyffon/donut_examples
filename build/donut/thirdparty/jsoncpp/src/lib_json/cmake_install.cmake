@@ -1,8 +1,8 @@
-# Install script for directory: C:/Tyffon/Repositories/expoc-test/donut_examples/donut/thirdparty/jsoncpp/src/lib_json
+# Install script for directory: C:/Tyffon/Repositories/ExpoC/donut_examples/donut/thirdparty/jsoncpp/src/lib_json
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/donut_examples")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/donut_examples")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,13 +34,13 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Tyffon/Repositories/expoc-test/donut_examples/build/lib/Debug/jsoncpp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Tyffon/Repositories/ExpoC/donut_examples/build/lib/Debug/jsoncpp.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Tyffon/Repositories/expoc-test/donut_examples/build/lib/Release/jsoncpp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Tyffon/Repositories/ExpoC/donut_examples/build/lib/Release/jsoncpp.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Tyffon/Repositories/expoc-test/donut_examples/build/lib/MinSizeRel/jsoncpp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Tyffon/Repositories/ExpoC/donut_examples/build/lib/MinSizeRel/jsoncpp.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Tyffon/Repositories/expoc-test/donut_examples/build/lib/RelWithDebInfo/jsoncpp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Tyffon/Repositories/ExpoC/donut_examples/build/lib/RelWithDebInfo/jsoncpp.lib")
   endif()
 endif()
 
