@@ -292,6 +292,9 @@ public:
 
     void Render(nvrhi::IFramebuffer* framebuffer) override
     {
+        double frameTime = GetDeviceManager()->GetAverageFrameTimeSeconds();
+        log::info("FPS: %.2f", 1.0 / frameTime);
+
         const nvrhi::FramebufferInfoEx& fbinfo = framebuffer->getFramebufferInfo();
 
         uint2 size = uint2(fbinfo.width, fbinfo.height);
@@ -369,9 +372,13 @@ int main(int __argc, const char** __argv)
 #endif
 {
     nvrhi::GraphicsAPI api = app::GetGraphicsAPIFromCommandLine(__argc, __argv);
+    api = nvrhi::GraphicsAPI::D3D11;
     app::DeviceManager* deviceManager = app::DeviceManager::Create(api);
 
     app::DeviceCreationParameters deviceParams;
+    deviceParams.backBufferWidth = 3840 * 2;
+    deviceParams.backBufferHeight = 2160 * 3;
+    deviceParams.startFullscreen = true;
 #ifdef _DEBUG
     deviceParams.enableDebugRuntime = true; 
     deviceParams.enableNvrhiValidationLayer = true;
